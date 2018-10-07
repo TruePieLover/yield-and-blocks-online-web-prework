@@ -173,7 +173,7 @@ The first time through our `while` loop, `i` is equal to `0`. The second time th
 
 So, during each step of the `while` loop, `i` equals a given index number of our array. We can use this information to yield each successive value stored in the array to the passed-in block:
 
-ruby
+
 def hello_t(array)
   i = 0
 
