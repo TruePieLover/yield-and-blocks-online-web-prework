@@ -173,7 +173,7 @@ The first time through our `while` loop, `i` is equal to `0`. The second time th
 
 So, during each step of the `while` loop, `i` equals a given index number of our array. We can use this information to yield each successive value stored in the array to the passed-in block:
 
-```ruby
+ruby
 def hello_t(array)
   i = 0
 
@@ -182,7 +182,7 @@ def hello_t(array)
     i = i + 1
   end
 end
-```
+
 
 Here, we use the bracket (`[]`) method to grab the value of each successive index element as we proceed through our `while` loop, `yield`ing each to a block. Now we're ready to call our method.
 
